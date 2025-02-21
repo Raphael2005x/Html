@@ -27,11 +27,11 @@ img {
     color: #000000;
     font-family: Arial;
     position: relative;
-    top: 210px; left: 550px;
+    top: 210px; left: 540px;
     background-color: #00ffea;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    padding: 15px 32px;
+    padding: 15px 55px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -41,11 +41,11 @@ img {
     color: #000000;
     font-family: Arial;
     position: relative;
-    top: 210px; left: 525px;
+    top: 210px; left: 518px;
     background-color: #00ffea;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    padding: 15px 32px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
