@@ -23,15 +23,40 @@ img {
     width: 17%;
     size: 2px;
 }
-a {
+.git{
+    color: #000000;
+    font-family: Arial;
     position: relative;
-    top: 250px; left: 500px;
+    top: 210px; left: 550px;
+    background-color: #0088ff;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+.instagram {
+    color: #000000;
+    font-family: Arial;
+    position: relative;
+    top: 210px; left: 525px;
+    background-color: #0088ff;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
 }
 
-.s{
+
+/* .s{
     width: 120px;
     height: 60px;
     background-color: white;
     position: relative;
     top: 160px; left: 520px;
-}
+} */
