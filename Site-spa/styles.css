@@ -1,0 +1,20 @@
+body{
+    background-color:blanchedalmond;
+    height: auto;
+    width: auto;
+}
+.logo{
+    display: inline-grid;
+    place-items: center;
+    height: 160px;
+    width: auto;
+    margin: 0 auto;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+}
