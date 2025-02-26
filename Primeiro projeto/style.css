@@ -1,77 +1,72 @@
 
 body {
     background-color: black;
-    height: 100%;
 }
-h1 {
-    color: rgb(255, 255, 255);
-    position: relative;
+.title-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-82%, -220%);
+    z-index: 1;
+    color: #ffffff;
+    font-size: 2rem; 
+    width: 21rem;
+    overflow: hidden
+}
+.other-colorstrong{
+    color: aqua;
+}
+.wrap-box-auto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -200%);
+    z-index: 1;
+    color: #ffffff;
+    font-size: 0.9rem; 
+    width: 19rem;
+    overflow: hidden
     
-}
-/* Todo strong ser dessa cor nao faz sentido */
-strong {
-    color: #00ffea;
-}
-
-/* Todo p ser relative, etc nao faz sentido */
-p {
-    color: rgb(255, 255, 255);
-    position: relative;
 
 }
-/* Nao faz sentido img ser assim */
-.img-my {
-    width: 250px;
-    height: fit-content;
-}
-.card-container {
-    width: 1200px;
-    margin-bottom: 1em;
-}
-
-.card-text {
-    display: inline-block;
-    width: 350px;
-    height: 500px;
-    margin: 5px;
-    color: white;
-}
-
-.card-img {
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    margin: 5px;
-    color: white;
-}
-
-.title-card {
-    width: 300px;
-}
-
-.git-btn {
+.instagram-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -50%); /* Move o botão para o centro */
+    z-index: 1; /* Ajustado para que fique visível */
+    background-color: aqua;
+    border: none;
     color: #000000;
-    font-family: Arial;
-    position: relative;
-    background-color: #00ffea;
     border-radius: 10px;
-    border: 2px solid #ffffff;
-    padding: 15px 55px;
+    padding: 13px 38.2px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-}
-.instagram-btn {
-    color: #000000;
-    font-family: Arial;
-    position: relative;
-    background-color: #00ffea;
-    border-radius: 10px;
+    font-size: 16px;
     border: 2px solid #ffffff;
-    padding: 15px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.git-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    z-index: 1;
+    background-color: aqua;
+    border: none;
+    color: #000000;
+    border-radius: 10px;
+    padding: 13px 54px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-my{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -90%);
+    z-index: 1;
 }
