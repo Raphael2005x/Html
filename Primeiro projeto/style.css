@@ -1,72 +1,55 @@
-
 body {
-    background-color: black;
+  background-color: black;
 }
-.title-card{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-82%, -220%);
-    z-index: 1;
-    color: #ffffff;
-    font-size: 2rem; 
-    width: 21rem;
-    overflow: hidden
+.card-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
 }
-.other-colorstrong{
-    color: aqua;
+.title-card {
+  z-index: 1;
+  color: #ffffff;
+  font-size: 2rem;
+  width: 21rem;
+  overflow: hidden;
 }
-.wrap-box-auto{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-90%, -200%);
-    z-index: 1;
-    color: #ffffff;
-    font-size: 0.9rem; 
-    width: 19rem;
-    overflow: hidden
-    
-
+.other-colorstrong {
+  color: aqua;
 }
-.instagram-btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-180%, -50%); /* Move o botão para o centro */
-    z-index: 1; /* Ajustado para que fique visível */
-    background-color: aqua;
-    border: none;
-    color: #000000;
-    border-radius: 10px;
-    padding: 13px 38.2px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border: 2px solid #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+.wrap-box-auto {
+  z-index: 1;
+  color: #ffffff;
+  font-size: 0.9rem;
+  width: 19rem;
+  overflow: hidden;
 }
-.git-btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-    z-index: 1;
-    background-color: aqua;
-    border: none;
-    color: #000000;
-    border-radius: 10px;
-    padding: 13px 54px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border: 2px solid #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+.instagram-btn {
+  z-index: 1; /* Ajustado para que fique visível */
+  background-color: aqua;
+  border: none;
+  color: #000000;
+  border-radius: 10px;
+  padding: 13px 38.2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.img-my{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(30%, -90%);
-    z-index: 1;
+.git-btn {
+  z-index: 1;
+  background-color: aqua;
+  border: none;
+  color: #000000;
+  border-radius: 10px;
+  padding: 13px 54px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-img {
+  z-index: 1;
 }
