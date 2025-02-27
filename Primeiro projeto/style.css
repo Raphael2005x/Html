@@ -1,12 +1,19 @@
 body {
   background-color: black;
 }
+
 .card-container {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
+.card-item {
+  position: relative;
+  border-radius: 5px;
+}
+
 .title-card {
   z-index: 1;
   color: #ffffff;
@@ -49,7 +56,4 @@ body {
   font-size: 16px;
   border: 2px solid #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-}
-.card-img {
-  z-index: 1;
 }
