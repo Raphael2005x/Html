@@ -1,38 +1,35 @@
 body {
   background-color: black;
 }
-
-.card-container {
+.card-container { /* set de todo o corpo do codigo */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
-.card-item {
+.card-item { /* Botão e Texto  */
   position: relative;
   border-radius: 5px;
 }
-
-.title-card {
+.title-card { /* set de texto "Eleve seu negócio digital a outro nível" */
   z-index: 1;
   color: #ffffff;
   font-size: 2rem;
   width: 21rem;
   overflow: hidden;
 }
-.other-colorstrong {
+.other-colorstrong { /* Alteração da cor do texto 01 */
   color: aqua;
 }
-.wrap-box-auto {
+.wrap-box-auto { /* set de texto "Olá! Sou Joana Santos" */
   z-index: 1;
   color: #ffffff;
   font-size: 0.9rem;
   width: 19rem;
   overflow: hidden;
 }
-.instagram-btn {
-  z-index: 1; /* Ajustado para que fique visível */
+.instagram-btn { /* Botao instagram */
+  z-index: 1;
   background-color: aqua;
   border: none;
   color: #000000;
@@ -44,7 +41,7 @@ body {
   border: 2px solid #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
-.git-btn {
+.git-btn { /* Botao github */
   z-index: 1;
   background-color: aqua;
   border: none;
