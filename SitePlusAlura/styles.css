@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   margin-bottom: 1em;
 }
-.botao__secundario{
+.botao_secundario{
   background-color: transparent;
   border: 2px solid var(--branco-principal);
 }
@@ -50,7 +50,12 @@ body {
   font-weight: 700;
 }
 .container__imagem{
+<<<<<<< main
+=======
+  width: 75%;
+>>>>>>> local
   margin: 1em 0 2em 0;
+  margin-inline: 10em;
 }
 .container__caixa{
   margin: 0 5em;
@@ -109,6 +114,7 @@ body {
   font-size: 48px;
   color: var(--branco-principal);
   margin: 8em 0 -181px;
+  width: 20em;
 }
 .lista__item{
   font-size: 32px;
