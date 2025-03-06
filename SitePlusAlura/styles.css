@@ -50,10 +50,14 @@ body {
   font-weight: 700;
 }
 .container__imagem{
+<<<<<<< HEAD
 <<<<<<< main
 =======
   width: 75%;
 >>>>>>> local
+=======
+  width:75%;
+>>>>>>> 738b71fdad8e109401cf4b95bd555e5c66644d34
   margin: 1em 0 2em 0;
   margin-inline: 10em;
 }
