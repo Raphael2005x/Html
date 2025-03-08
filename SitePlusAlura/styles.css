@@ -147,11 +147,11 @@ body { /* corpo da pagina */
   color: var(--botao-azul);
 }
 
-.lista__link a:active{
+.lista__link a:active{ /* Fica azul quando clica em cima */
   color: #1900ff;
 }
 
-.container__botao:hover{
+.container__botao:hover{ /* troca a cor da escrita e do item selecionado */
   background-color: var(--botao-azul-efeito);
   color: var(--cor-de-fundo);
 }
