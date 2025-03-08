@@ -1,12 +1,13 @@
-:root {
+:root { /* links de modificação dos itens utilizados durante a produção do site */
   --branco-principal: #ffffff;
   --cinza-secundario: #c0c0c0;
   --botao-azul: #167bf7;
   --cor-de-fundo: #00030c;
   --fonte-principal: "Inter";
+  --botao-azul-efeito: #0000ff;
 }
 
-body {
+body { /* corpo da pagina */
   background-color: var(--cor-de-fundo);
   color: var(--branco-principal);
   font-family: var(--fonte-principal);
@@ -14,26 +15,27 @@ body {
   font-weight: 400;
 }
 
-* {
+* { /* o * é chamado de seletor universal. Ele seleciona todos os elementos da página */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.principal {
-  background-image: url("img/Background.png");
+.principal { /* tudo que esta na pagina principal do site */
+  background-image: url("src/img/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
   align-items: center;
   text-align: center;
 }
 
-.container {
+.container { /* Subdivisao do principal */
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.container__botao {
+.container__botao { /* Modificação dos botoes do site (Assine o Combo+, Assine por 12x de R$ 120,00, Assinar somente o Alura+) */
   background-color: var(--botao-azul);
   border-radius: 5px;
   padding: 1em;
@@ -43,55 +45,113 @@ body {
   margin-bottom: 1em;
 }
 
-.botao__secundario {
+.botao__secundario { /* modifica somente o botao (Assinar somente o Alura+) */
   background-color: transparent;
   border: 2px solid var(--branco-principal);
 }
 
-.container__aviso {
+.container__aviso { /* Modifica somente o texto (O preço pode variar caso a assinatura seja feita em outros planos) */
   font-size: 12px;
   color: var(--cinza-secundario);
 }
 
-.container__titulo {
+.container__titulo { /* modifica somente o Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único. */
   font-size: 28px;
   font-weight: 700;
 }
 
-.container__imagem {
+.container__imagem { /* tamano e o local da imagem O combo+ */
   width: 75%;
   margin: 1em 0 2em 0;
 }
 
-.container__caixa {
+.container__caixa { /* div da tela inicial do site */
   margin: 0 6em;
 }
 
-.secundario__imagem {
+.secundario__imagem { /* Imagens do corpo do site */
   width: 80%;
 }
 
-.secundario {
+.secundario { /* container secundario, tudo que esta dentro do container porem, abaixo do container principal */
   align-items: center;
   margin: 0 10em;
 }
 
-.descricao__titulo {
+.descricao__titulo { /* estilização dos titulos do corpo da pagina */
   font-weight: 700;
   font-size: 48px;
   color: var(--branco-principal);
   margin-bottom: 0.1em;
 }
 
-.descricao__texto {
+.descricao__texto { /* cor dos paragrafos do corpo da pagina */
   color: var(--cinza-secundario);
 }
 
-.secundario__botao {
+.secundario__botao { /* botao do (Assine o Combo+) */
   display: inline-block;
   margin-top: 1em;
 }
 
-.container__descricao {
+.container__descricao { /* estilização das mensagens do corpo da pagina */
   padding: 2em;
+}
+
+.dispositivos__lista { /* todas a ul da lista dispositivos */
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos { /* engloba toda a classe dispositivos */
+  text-align: center;
+}
+
+.dispositivos__titulos { /* titulo do rodapé */
+  font-size: 48px;
+  color: var(--branco-principal);
+}
+
+.lista__items { /* Nomes abaixo das imagens do rodapé */
+  font-size: 32px;
+  color: var(--branco-principal);
+}
+
+.rodape__lista{ /* lista do rodapé (links) */
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.lista__link a{ /* lista de links, o a serve para remover quais quer tipos de aplicará estilos somente aos <a> dentro de .lista__link, sem afetar outros links na página. */
+  text-decoration: none;
+  color: var(--branco-principal);
+  margin-left: 1em;
+}
+
+.rodape__texto{ /* texto que está no rodapé */
+  margin: 1em 0;
+  color: var(--cinza-secundario);
+  font-size: 14px;
+}
+
+.rodape{ /* estilização da parte de baixo do site */
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.lista__link a:hover{  /* Quando o mouse passa por cima do botao */
+  color: var(--botao-azul);
+}
+
+.lista__link a:active{
+  color: #1900ff;
+}
+
+.container__botao:hover{
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
 }
