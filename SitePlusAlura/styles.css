@@ -119,20 +119,20 @@ body { /* corpo da pagina */
   color: var(--branco-principal);
 }
 
-.rodape__lista{ /* lista do rodapé (links) */
+.rodape__lista { /* lista do rodapé (links) */
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin-top: 1em;
 }
 
-.lista__link a{ /* lista de links, o a serve para remover quais quer tipos de aplicará estilos somente aos <a> dentro de .lista__link, sem afetar outros links na página. */
+.lista__link a { /* lista de links, o a serve para remover quais quer tipos de aplicará estilos somente aos <a> dentro de .lista__link, sem afetar outros links na página. */
   text-decoration: none;
   color: var(--branco-principal);
   margin-left: 1em;
 }
 
-.rodape__texto{ /* texto que está no rodapé */
+.rodape__texto { /* texto que está no rodapé */
   margin: 1em 0;
   color: var(--cinza-secundario);
   font-size: 14px;
@@ -143,20 +143,20 @@ body { /* corpo da pagina */
   margin: 5em 3em;
 }
 
-.lista__link a:hover{  /* Quando o mouse passa por cima do botao */
+.lista__link a:hover {  /* Quando o mouse passa por cima do botao */
   color: var(--botao-azul);
 }
 
-.lista__link a:active{ /* Fica azul quando clica em cima */
+.lista__link a:active { /* Fica azul quando clica em cima */
   color: #1900ff;
 }
 
-.container__botao:hover{ /* troca a cor da escrita e do item selecionado */
+.container__botao:hover { /* troca a cor da escrita e do item selecionado */
   background-color: var(--botao-azul-efeito);
   color: var(--cor-de-fundo);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) { /* Responsivo: utilizado para a adaptação para celular através de media queries. */
   .container{
     display: block;
     background-image: none;
