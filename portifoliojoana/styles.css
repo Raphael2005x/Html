@@ -1,0 +1,83 @@
+:root {
+    --cor-fundo-pagina: #000000;
+    --cor-da-escrita-footer: #000000;
+    --cor-texto-titulo: #F6F6F6;
+    --cor-texto-subtitulo: #F6F6F6;
+    --cor-texto-titulo-strong: #22D4FD;
+    --cor-botoes: #22D4FD;
+    --fonte-principal: "Krona One";
+    --fonte-secundario: "Montserrat";
+}
+
+body { /* corpo da pagina */
+    background-color: var(--cor-fundo-pagina);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container { /* Subdivisao do principal */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+.principal {
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.principal__titulo {
+    color: var(--cor-texto-titulo);
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+}
+
+.principal__titulo--strong {
+    color: var(--cor-texto-titulo-strong);
+}
+
+.principal__subtitulo {
+    color: var(--cor-texto-subtitulo);
+    font-size: 24px;
+    font-family: var(--fonte-secundario);
+}
+
+.principal__titulo--secundario {
+    color: var(--cor-texto-titulo);
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+}
+
+.container__button {
+    padding: 12px 30px;
+    border-width: 5px;
+    border-color: var(--cor-botoes);
+    border-radius: 5px;
+    border-style: solid;
+    background: transparent;
+    color: var(--cor-botoes);
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer__titulo {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-da-escrita-footer);
+    background-color: var(--cor-botoes);
+    font-size: 24px;
+}
+.rodape{
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
+    bottom: 0;
+    padding-bottom: 0;
+    
+}
